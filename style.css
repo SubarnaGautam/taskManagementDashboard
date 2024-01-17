@@ -29,3 +29,6 @@ button:hover{
 cursor: pointer;
 background-color:  hsl(237, 82%, 55%);
 }
+#result{
+    font-size: 36px;
+}

@@ -55,3 +55,26 @@ form label{
     background-color: hsl(60, 18%, 87%);
     font-size: 1.3rem;
 }
+
+
+    
+
+#navlist ul{
+    display: flex;
+    justify-content: space-around;
+    margin: -1px;
+
+list-style: none;
+}
+
+#navlist li{
+    padding: relative;
+    margin: 0;
+
+}
+#back{
+    position: relative;
+    
+
+    width: 20%;
+}

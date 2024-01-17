@@ -12,11 +12,11 @@
         <h1>Welcome to Task Management Dashboard</h1>
 
         <div id="checkBox">
-            <input type="checkbox" id="admin" name="admin" class="checkBox">
+            <input type="radio" id="admin" name="admin" value="admin" onclick="selectOnlyThis(this.id)">
             <label for='admin'>: Admin</label>
 
-            <input type="checkbox" id="teammember" name="teammember" class="checkBox">
-            <label for='teammember'>: Team Member</label><br>
+            <input type="radio" id="team" name="teammember" value="team" onclick="selectOnlyThis(this.id)">
+            <label for='team'>: Team Member</label><br>
         </div>
 
         <button id="button" onclick="openTeamPage()">Submit</button>
