@@ -1,11 +1,17 @@
 body{
     background-color: hsl(0, 13%, 88%);
+    margin: 0;
+    padding: 0;
 }
+
 #welcometeam{
     text-align: center;
     font-size: 1.1rem;
     background-color: white;
     margin-top: 100px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 #inputcont{
@@ -56,25 +62,38 @@ form label{
     font-size: 1.3rem;
 }
 
-
-    
-
-#navlist ul{
+#navlist {
+ 
     display: flex;
-    justify-content: space-around;
-    margin: -1px;
-
-list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px; 
+     width: 90%;
 }
 
-#navlist li{
-    padding: relative;
+#navlist ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+    display: flex;
+    
+ 
+  
+}
+
+#navlist li {
+    cursor: pointer;
+    margin-left: 10px;
+  
+}
+
+#back {
+    order: -1;
+    margin-right: auto;
 
 }
-#back{
-    position: relative;
-    
-
-    width: 20%;
+#navlist a{
+    color: white;
 }

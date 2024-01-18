@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(0, 13%, 88%);
+}
+.loginpage{
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    background-color: hwb(204 89% 7%);
+}
+
+button{
+    background-color: hwb(133 59% 7%);
+    font-size: 16px;
+    border-radius: 5px;
+    
+}

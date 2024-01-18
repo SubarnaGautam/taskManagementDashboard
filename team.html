@@ -8,18 +8,18 @@
     <script src="./index.js"></script>
 </head>
 <body>
-<header>  
-    <nav id="back">Back</nav>
+ <header>  
+   
     <div id="navlist">
         <ul>
-          
-            <li>Home</li>
-            <li>Profile</li>
-            <li>User</li>
+            <li id="back"><a href="index.html">Back</a></li>
+            <li id="home">Home</li>
+            <li id="profile">Profile</li>
+            <li id="user">User</li>
         </ul>
     </div>
     
-</header>
+ </header>
 
     <div id="welcometeam">
         <h1>Welcome to Team Member page</h1><br>
@@ -30,18 +30,21 @@
              <button id="save" onclick="save()">Save</button>
 
         </div>
-<form>
-         <label for = "dropdown" >Task in progress :</label>  
+            <form>
+               <label for = "dropdown" >Task in progress :</label>  
 
-        <select id="dropdown" name="dropdown" >
+              <select id="dropdown" name="dropdown" >
      
-        <option value="task1">Task one</option>
-        <option value="task2">Task two</option>
-        <option value="task3">Task three</option>
+                <option value="task1">Task one</option>
+                <option value="task2">Task two</option>
+                <option value="task3">Task three</option>
 
     
-    </select>
- </form>      
+              </select>
+            </form>      
     </div>
+
+    <div>
+    
 </body>
 </html>
