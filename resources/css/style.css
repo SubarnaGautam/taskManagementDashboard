@@ -1,0 +1,61 @@
+body{
+    /*background-color: hsl(0, 13%, 88%); */
+    background-image: url('/resources/unknown.jpg');
+   
+background-position: left;
+background-size: cover;
+    
+
+
+ 
+}
+#welcomtainer{
+    text-align:  center;
+    font-size: 1.1rem;
+   
+    background-color: rgb(115, 206, 185);
+   
+    width: 75%;
+  
+    margin-top: 30%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#checkBox
+{
+    margin-top: 50px;
+    font-family: Helvetica;
+    font-size: 1.3rem;
+    display: inline;
+    justify-content: center;
+    
+}
+button{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background-color: hsl(154, 78%, 47%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+button:hover{
+    
+cursor: pointer;
+background-color:  hsl(149, 32%, 59%);
+}
+#result{
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(115, 206, 185);
+   
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    font-weight: 900;
+  
+    
+
+}
